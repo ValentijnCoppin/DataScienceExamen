@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "notenook-temlate"
+version = "0.1.0"
+description = ""
+authors = ["ignition <valentijn.ignition@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.2"
+matplotlib = "^3.8.2"
+pandas = "^2.2.2"
+python-dotenv = "^1.0.1"
+pydantic = "^2.7.3"
+seaborn = "^0.13.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
